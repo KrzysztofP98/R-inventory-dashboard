@@ -1,7 +1,8 @@
-# R-inventory-dashboard
+# R inventory dashboard
 
 
-Restaurant Inventory Management Dashboard
+# Restaurant Inventory Management Dashboard
+
 This R project involves developing an interactive dashboard to analyze and visualize restaurant inventory data. The dashboard is created using the Shiny package in R and provides various analyses including:
 
 -	Total Demand Distribution: An overview of the total demand for different food items.
