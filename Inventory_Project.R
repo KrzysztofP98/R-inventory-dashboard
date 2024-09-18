@@ -46,10 +46,6 @@ week_order <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturda
 # Reshape the data from wide to long format to facilitate analysis
 long_data <- pivot_longer(df, cols = c(SQUID, FISH, SHRIMPS, CHICKEN, MEATBALLS, LAMB, STEAK), names_to = "FOOD_ITEM", values_to = "DEMAND")
 
-# Save the reshaped data to an Excel file
-write.xlsx(long_data, "output/inventories.xlsx")
-
-
 # Create categorical variables for different weather and time conditions
 long_data$Holiday <- ifelse(long_data$WEEKEND == 0 & long_data$ISHOLIDAY == 0, "Working day",
                             ifelse(long_data$WEEKEND == 1 & long_data$ISHOLIDAY == 0, "Weekend",
