@@ -47,7 +47,7 @@ week_order <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturda
 long_data <- pivot_longer(df, cols = c(SQUID, FISH, SHRIMPS, CHICKEN, MEATBALLS, LAMB, STEAK), names_to = "FOOD_ITEM", values_to = "DEMAND")
 
 # Save the reshaped data to an Excel file
-write.xlsx(long_data,  "C:/Users/krzys/Desktop/R language/inventories.xlsx")
+write.xlsx(long_data, "output/inventories.xlsx")
 
 
 # Create categorical variables for different weather and time conditions
