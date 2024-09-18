@@ -52,7 +52,7 @@ Installation
 To install the required R packages, run the following commands in your R console:
 
 
-'install.packages(c("dplyr", "ggplot2", "tidyr", "lubridate", "shiny", "openxlsx", "RColorBrewer"))'
+`install.packages(c("dplyr", "ggplot2", "tidyr", "lubridate", "shiny", "openxlsx", "RColorBrewer"))`
 
 Usage
 
@@ -66,7 +66,7 @@ Usage
         Run the script to start the Shiny application.
 
 
-'source("app.R")'
+`source("app.R")`
 
     Interact with the Dashboard:
         Total Demand Tab: View the total demand distribution of various food items.
