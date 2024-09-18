@@ -8,10 +8,10 @@ library(openxlsx)
 
 # Read the CSV data file into a data frame
 df <- data.frame(data)
-data <- read.csv("C:/Users/krzys/Desktop/R language/Project/dataInventoryManagementRestaurant.csv")
+data <- read.csv("dataInventoryManagementRestaurant.csv")
+
 
 #Cleaning the data set 
-
 
 #Find entries lacking in decimal points & insert them in a suitable position
 add_decimal_point <- function(entry) {
