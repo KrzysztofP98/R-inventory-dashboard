@@ -33,6 +33,7 @@ Data File:
 Requirements
 
 R: The programming language used for data analysis and visualization.
+
 R Packages: The project uses the following R packages:
 
     dplyr
