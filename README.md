@@ -1,9 +1,13 @@
 Restaurant Inventory Management Dashboard Overview
+
 This R project involves developing an interactive dashboard to analyze and visualize restaurant inventory data. The dashboard is created using the Shiny package in R and provides various analyses including:
+
 -	Total Demand Distribution: An overview of the total demand for different food items.
 -	Weather/Position in the Week Analysis: Insights into how demand for specific products varies with different weather conditions and days of the week.
 -	Change Over Time Analysis: Analysis of demand trends over years, months, and days of the week.
+  
 Project Components
+
 Data Preparation:
  Data is read from a CSV file and cleaned, including handling decimal points and reshaping the data for analysis.
 Categorical variables related to weather and time are created for detailed analysis.
