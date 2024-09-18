@@ -51,7 +51,6 @@ Installation
 
 To install the required R packages, run the following commands in your R console:
 
-r
 
 install.packages(c("dplyr", "ggplot2", "tidyr", "lubridate", "shiny", "openxlsx", "RColorBrewer"))
 
