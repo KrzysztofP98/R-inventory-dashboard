@@ -56,7 +56,8 @@ install.packages(c("dplyr", "ggplot2", "tidyr", "lubridate", "shiny", "openxlsx"
 
 Usage
 
-    Load Data: Make sure the data file dataInventoryManagementRestaurant.csv is available in the specified path (C:/Users/krzys/Desktop/R language/Project/dataInventoryManagementRestaurant.csv).
+    Load Data: Make sure the data file dataInventoryManagementRestaurant.csv is available in the specified path (data/dataInventoryManagementRestaurant.csv).
+
 
     Run the Code:
         Save the provided R script in a file (e.g., app.R).
@@ -64,7 +65,6 @@ Usage
         Set the working directory to the location of your R script.
         Run the script to start the Shiny application.
 
-r
 
 source("app.R")
 
