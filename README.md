@@ -54,14 +54,13 @@ To install the required R packages, run the following commands in your R console
 
 Load Data: Make sure the data file dataInventoryManagementRestaurant.csv is available in the specified path (data/dataInventoryManagementRestaurant.csv).
 
-Run the Code:
 
-    Save the provided R script in a file (e.g., app.R).
-    Open RStudio or another R IDE.
-    Set the working directory to the location of your R script.
-    Run the script to start the Shiny application.
+Save the provided R script in a file (e.g., app.R).
+Open RStudio or another R IDE.
+Set the working directory to the location of your R script.
+Run the script to start the Shiny application.
     
-`source("app.R")`
+    source("app.R")
 
 Interact with the Dashboard:
 
